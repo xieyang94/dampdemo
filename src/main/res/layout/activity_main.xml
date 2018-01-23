@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiey94.damp.view.BounceScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="always"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dip"
+            android:layout_margin="10dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/test" />
+
+        <com.xiey94.damp.view.dampHorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="240dip"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="240dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="240dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="240dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="240dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="240dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="240dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/test" />
+
+            </LinearLayout>
+        </com.xiey94.damp.view.dampHorizontalScrollView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dip"
+            android:layout_margin="10dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/test" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dip"
+            android:layout_margin="10dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/test" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:text="@string/big_text"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</com.xiey94.damp.view.BounceScrollView>
